@@ -1,0 +1,41 @@
+// _settings.scss
+@import 'compass';
+
+$desktop : 1280px;
+
+/* Custom container */
+ .container{
+    width: $desktop !important;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    
+
+       @media (min-width: $desktop){
+          width: 100% !important;
+       }
+}
+
+.col-xs-12{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+
+/* custom fonts */
+@font-face {
+    font-family: 'BookOS';
+    src: url(../fonts/BookOS.ttf);
+}
+
+@font-face {
+    font-family: 'displayPro';
+    src: url(../fonts/displayPro.ttf);
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url(../fonts/Georgia.ttf);
+}
+
+
